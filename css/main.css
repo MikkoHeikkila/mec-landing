@@ -114,11 +114,16 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+main{
+    margin-bottom: 90px;
+}
+
 .wrapper{
     max-width: 900px;
     margin: 30px auto;
     padding: 0 45px;
 }
+
 
 /*Header*/
 header{
