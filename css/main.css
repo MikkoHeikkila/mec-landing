@@ -125,6 +125,10 @@ header{
     text-align: center;
     margin: 90px 0;
 }
+#logo{
+    width: 100%;
+    max-width: 350px;
+}
 
 /*Main*/
 section{
