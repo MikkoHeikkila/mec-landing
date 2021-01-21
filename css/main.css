@@ -155,8 +155,30 @@ section{
 .col-lg{
     width: 60%;
 }
+.col-50{
+    width: 50%;
+}
+.col-full{
+    width: 100%;
+}
 .col-content{
     padding: 45px;
+}
+
+.gallery{
+    display: flex;
+}
+.gallery div{
+    width: 20%;
+}
+.gallery div img{
+    width: 100%;
+}
+
+.white-border{
+    padding: 30px;
+    margin: -30px;
+    background-color: #fff;
 }
 
 /*Footer*/
@@ -186,6 +208,9 @@ footer{
         width: 100%;
     }
     .col-lg{
+        width: 100%;
+    }
+    .col-50{
         width: 100%;
     }
     .col-content{
