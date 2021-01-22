@@ -84,16 +84,61 @@ textarea {
 /*
  * Content
  */
-
+h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 47px;
+    line-height: 57px;
+    letter-spacing: 0.005em;
+}
 p{
-    line-height: 1.8rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 33px;
+    letter-spacing: 0.012em;
     margin: 45px 0;
 }
 small{
     display: block;
     margin: 10px 0;
     line-height: 1.1rem;
-    font-size: 70% !important;
+    font-size: 80% !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 141% */
+    letter-spacing: 0.005em;
+}
+@media only screen and (max-width: 920px) {
+    h2{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 37px;
+        line-height: 47px;
+        letter-spacing: 0.005em;
+    }
+    p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: 0.012em;
+        margin: 45px 0;
+    }
+    small{
+        display: block;
+        margin: 10px 0;
+        line-height: 1.1rem;
+        font-size: 70% !important;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        /* or 141% */
+        letter-spacing: 0.005em;
+    }
 }
 
 /* ==========================================================================
@@ -140,7 +185,7 @@ section{
 }
 .row{
     max-width: 1200px;
-    padding: 60px 45px;
+    padding: 15px 45px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -161,7 +206,7 @@ section{
     width: 100%;
 }
 .col-content{
-    padding: 30px;
+    padding: 45px 30px;
 }
 
 .gallery{
@@ -247,6 +292,11 @@ footer{
 
 .mt-lg{
     margin-top: 90px;
+}
+
+.jumbo{
+    font-size: 2.5rem;
+    text-align: center;
 }
 
 /*
